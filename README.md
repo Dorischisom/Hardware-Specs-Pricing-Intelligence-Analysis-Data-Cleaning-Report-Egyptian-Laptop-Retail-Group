@@ -1,8 +1,6 @@
 # Hardware Specs Pricing Intelligence Analysis: Data Cleaning Report Egyptian Laptop Retail Group
 
 
-# Data Collection & Data Cleaning Exercise
-
 ## Overview
 The Egyptian Laptop Retail Group is a technology-focused retailer offering a wide range of laptops across multiple brands, price segments, and performance tiers. Its portfolio includes entry-level consumer devices, mid-range productivity machines, and high-performance gaming and workstation laptops equipped with advanced CPUs and GPUs.
 
