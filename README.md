@@ -110,13 +110,9 @@ I used the **"Remove Duplicates"** feature in Excel's Data Toolbar to remove dup
 
 **Before**
 
-![Before 2](Before2/Before2.png)
+![Duplicate](Duplicate/Duplicate.png)
 
 
-**After**
-
-
-![After 2](After2/After2.png)
 
 ---
 
@@ -172,13 +168,13 @@ A formula was applied that first checks whether the brand is one of the three al
 **Before**
 
 
-![Before 3](Before3/Before3.png)
+![Before](Before/Before.png)
 
 
 **After**
 
 
-![After 3](After3/After3.png)
+![After](After/After.png)
 
 
 ---
