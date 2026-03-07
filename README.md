@@ -76,7 +76,6 @@ To correct this:
 - I removed special characters such as colons (`:`) manually.
 
 
-**Before**
 
 ![Before 1](Before1/Before1.png)
 
