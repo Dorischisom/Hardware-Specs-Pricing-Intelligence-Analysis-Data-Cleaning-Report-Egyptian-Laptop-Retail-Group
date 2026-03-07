@@ -1,4 +1,4 @@
-# Hardware-Specs-Pricing-Intelligence-Analysis-Data-Cleaning-Report-Egyptian-Laptop-Retail-Group
+# Hardware Specs Pricing Intelligence Analysis: Data Cleaning Report Egyptian Laptop Retail Group
 
 
 # Data Collection & Data Cleaning Exercise
@@ -456,7 +456,7 @@ Data quality is not a one-time task, it requires ongoing monitoring and automati
 - **Automated null monitoring:** An automated check should run on every data import or update that counts the number of blank values in each column and sends an alert if any mandatory column exceeds 5% missing. This catches data collection problems early before they accumulate.
 - **Weekly deduplication job:** A scheduled process should run every week that checks for duplicate Product Name and Brand combinations and flags or removes any that are found.
 - **Master reference tables:** A central reference table for Brands, Processor families, GPU models, and Product Series should be maintained and kept up to date. All data entry forms should pull from these tables rather than allowing free text. When a new product is launched, the reference table is updated once and all forms immediately reflect the change.
-- **Standardisation pipeline:** Any legacy data imported from external sources (e.g., Kaggle, supplier feeds, scraped data) should pass through a standardisation pipeline before entering the working dataset. This pipeline should apply the same cleaning rules used in this exercise automatically unit normalisation, casing standardisation, symbol removal — before any analyst sees the data.
+- **Standardisation pipeline:** Any legacy data imported from external sources (e.g., Kaggle, supplier feeds, scraped data) should pass through a standardisation pipeline before entering the working dataset. This pipeline should apply the same cleaning rules used in this exercise automatically unit normalisation, casing standardisation, symbol removal before any analyst sees the data.
 - **Data quality dashboard:** A simple dashboard should be maintained showing key metrics for each column: null rate, number of unique values, min/max for numeric columns, and any out-of-range flags. This gives the team a live view of data health without needing to run manual checks.
 - **Cleaning documentation as living document:** This cleaning report should be treated as a living document. Every time a new data quality issue is discovered and resolved, it should be added to the report with the same structure used here. This builds an institutional record of known issues and how to handle them.
 - **Periodic audits:** Every quarter, a data quality audit should be conducted on the full dataset checking for new duplicates, format drift, and columns that may have developed new inconsistencies due to changes in how data is being entered. This ensures problems are caught before they affect analysis.
