@@ -17,7 +17,7 @@ How do specific hardware specifications (such as CPU generation and GPU type) in
 ---
 
 ## About the Data
-The dataset used for this exercise is a dirty laptop raw dataset originally sourced from Kaggle.
+The dataset used for this exercise is a dirty laptop raw dataset originally sourced from [Kaggle](https://www.kaggle.com/datasets/waddahali/laptop-prices-and-specifications-dataset)
 
 - **Number of rows:** 1033
 - **Number of columns:** 30
@@ -31,7 +31,7 @@ The dataset includes attributes such as:
 | Processor details | The full commercial name of the laptop model | Text |
 | Processor | The main CPU used in the laptop | Text |
 | Video graphics | The graphics card installed | Text |
-| Video graphics Memorey | Amount of memory dedicated to the graphics card (e.g., 2GB, 4GB) | Text |
+| Video) graphics Memorey | Amount of memory dedicated to the graphics card (e.g., 2GB, 4GB) | Text |
 | RAM | Amount of system memory installed | Text |
 | Hard drive | Storage capacity and type (e.g., 512GB SSD, 1TB HDD) | Text |
 | Display | Screen size or display description (e.g., 15.6 inch) | Text |
@@ -58,6 +58,8 @@ The dataset includes attributes such as:
 | Optical drive | Whether it has a CD/DVD drive | Boolean |
 | Series | Product series line (e.g., Pavilion, ThinkPad, Inspiron) | Text |
 ---
+
+[View In Excel](Laptops_Dataset/Laptops_Dataset.xlsx)
 
 ## Data Cleaning Process
 
